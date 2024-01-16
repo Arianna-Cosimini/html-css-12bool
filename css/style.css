@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+}
+
+
+
+
+[class*="col-"]{
+
+  
+    /* text-align: center; */
+    background-color: #006cfa;
+    
+    padding: 20px 10px;
+
+    color: white;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+   
+}
+
+.container{
+    padding: 5px;
+}
+
+.green{
+    width: 100%;
+    background-color: #00e165;
+    
+    display: flex;
+    margin-right: 2px;
+    
+}
+
+span{
+    display: inline-block;
+}
+
+
+

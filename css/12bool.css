@@ -16,9 +16,26 @@
     margin-bottom: 16px;
 }
 
+.align-center{
+    align-items: center;
+
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.column{
+    flex-direction: column;
+}
+
 /* regola di test */
 .test{
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: rgba(pink, 0, 0, 0.2);
 
 }   
@@ -26,10 +43,10 @@
 /* fine regola di test */
 
 
-.container{
+/* .container{
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
 .row{
     display: flex;
@@ -154,7 +171,7 @@
 
 /* media query smartphone extra-small */
 
-@media screen and (min-width: 1px){
+@media screen and (min-width: 0) and (max-width:475px){
     .col-xs-1{
         flex-basis: calc((100% / 12));
         max-width: calc((100% / 12));
