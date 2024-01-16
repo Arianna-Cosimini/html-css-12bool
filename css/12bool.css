@@ -29,8 +29,8 @@
     justify-content: flex-end;
 }
 
-.column{
-    flex-direction: column;
+.space-between{
+    justify-content: space-between;
 }
 
 /* regola di test */
